@@ -1,0 +1,23 @@
+body {
+  padding: 25px;
+}
+
+button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 25px;
+  padding: 10px 20px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  height: 90vh;
+  border: 3px solid black;
+}
+
+.item {
+  width: 100%;
+  height: auto;
+}
