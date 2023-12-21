@@ -1,41 +1,56 @@
 body {
-  padding: 25px;
+  background-color: #f0e6f6;
+  font-family: "Press Start 2P", cursive;
+  color: #333366;
+  padding: 20px;
   text-align: center;
-  font-family: "Roboto", sans-serif;
 }
 
 h1 {
-  font-family: "Rubik Doodle Shadow", sans-serif;
-  font-size: 45px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 35px;
+  color: #ff0099;
+  text-shadow: 3px 3px 0px #ffb6c1;
 }
 
 button {
-  position: relative;
-  margin: 25px 0;
-  padding: 15px 20px;
-  font-size: 18px;
+  background-color: #ff66cc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0px #b2004c;
   text-transform: uppercase;
-  margin-right: 15px;
-  border: 3px outset grey;
-  font-weight: 600;
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff3399;
+}
+
+button:active {
+  box-shadow: inset 2px 2px 0px #b2004c;
 }
 
 div.container {
-  padding: 50px;
-}
-
-div.colorPicker button {
-  padding: 30px;
+  padding: 60px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 5px 5px 0px #ffa07a;
 }
 
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   height: 90vh;
-  border: 3px solid black;
 }
 
 .item {
   width: 100%;
   height: auto;
+  background-color: #f0f8ff;
+  transition: background-color 0.1s;
 }
